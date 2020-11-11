@@ -4,8 +4,8 @@ import './style.css';
 function characterCard(props){
     return(
     <div className="card">
-        <div className="img-container" id={props.id}>
-          <img alt={props.name} src={props.image} />
+        <div className="img-thumbnail w-25" id={props.id}>
+          <img alt={props.name} src={props.image}/>
         </div>
     </div>
     )

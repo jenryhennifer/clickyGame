@@ -2,10 +2,10 @@ import React from 'react';
 
 function Jumbotron() {
   return (
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">King of the Click</h1>
-        <p class="lead">
+    <div className="jumbotron">
+      <div className="container">
+        <h1 className="display-4">King of the Click</h1>
+        <p className="lead">
           Getting to know the residents of Heimclick county, Texas! Make sure
           you only talk to them once!
         </p>
