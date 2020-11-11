@@ -7,56 +7,67 @@
     },
     {
         "id": 2,
+        "name": "Bobby",
         "image": "../media/bobby.gif",
         "clicked": false
     },
     {
         "id": 3,
+        "name": "Boomhauer",
         "image": "../media/boomhauer.gif",
         "clicked": false
     },
     {
         "id": 4,
+        "name": "Cotton",
         "image": "../media/cotton.gif",
         "clicked": false
     },
     {
         "id": 5,
+        "name": "Dale",
         "image": "../media/dale.gif",
         "clicked": false
     },
     {
         "id": 6,
+        "name": "Hank",
         "image": "../media/hank.gif",
         "clicked": false
     },
     {
         "id": 7,
+        "name": "Kahn",
         "image": "../media/kahn.gif",
         "clicked": false
     },
     {
         "id": 8,
+        "name": "LadyBird",
         "image": "../media/ladybird.gif",
         "clicked": false
     },
     {
         "id": 9,
+        "name": "Luanne",
         "image": "../media/luanne.gif",
         "clicked": false
     },
     {
         "id": 10,
+        "name": "Nancy",
         "image": "../media/nancy.gif",
         "clicked": false 
     },
     {
         "id": 11,
+        "name": "Peggy",
         "image": "../media/peggy.gif",
         "clicked": false
     },
     {
         "id": 12,
+        "name": "John Redcorn",
         "image": "../media/redcorn.gif",
         "clicked": false
     }
