@@ -18,7 +18,10 @@ class App extends Component {
     console.log(characters)
     const clickCheck = this.state.characters.find((char) => char.id === id);
     const shuffleCharacters = (char) => {
-      char.sort(() => Math.random() - 0.5);
+      //shallow copy of the array
+      //you do not ever want to modify the state directly
+      const copy = char.concat(); 
+      return copy.sort(() => Math.random() - 0.5);
     };
     const resetClick = (list) =>
       list.map((current) => ({ ...current, clicked: false }));
@@ -39,13 +42,10 @@ class App extends Component {
         }
         return char;
       });
-      this.setState({ characters: characters1, score: this.state.score + 1 });
+      this.setState({ characters: shuffleCharacters(characters1), score: this.state.score + 1 });
       console.log(this.state.score);
-      shuffleCharacters(characters1);
     }
   };
-
-  //shuffle the array
 
   //need a state statement that checks all indexes in array and ensure that all are
   render() {
