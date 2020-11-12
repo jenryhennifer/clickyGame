@@ -1,17 +1,7 @@
 .navbar {
     width: 100%;
+    background-color: #DF002A;
     text-align: center;
     font-size: 3rem;
-    color: #2A77AE;
-    /* margin-bottom: 50px; */
+    color: #FBF402;
   }
-
-/* ul{
-  width: 100%;
-  text-align: center;
-  font-size: 30px;
-
-}
-.score{
-  float: right;
-} */
